@@ -1,7 +1,10 @@
 body{
     color:white;
-    background: rgba(134, 159, 241, 0.874);
+    background: rgba(6, 38, 143, 0.874);
     margin: 0px;
+    margin-bottom: 100px;
+
+    
 }
 header{
     
@@ -22,8 +25,8 @@ justify-content: center;
 
 section{
     background: rgba(0, 0, 0, 0.781);
-    padding-bottom: 30px;
-    padding-top: 30px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     padding-left: 30px;
     padding-right: 30px;
     display:flex;
@@ -32,4 +35,34 @@ section{
 }
 .chamada-texto{
     margin-right: 5%;
+}
+
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 10px
+    }
+
+
+
+img{
+    height: 200px;
+}
+
+.elemento{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.elemento img{
+opacity: 0.5
+
+}
+.elemento img:hover {
+    opacity: 1.0;
+    border: 2px solid white
+}
+
+.meio {
+    justify-content: center;
+    border-bottom: 2px solid gold;
 }
