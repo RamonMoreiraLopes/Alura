@@ -10,7 +10,11 @@ header{
     justify-content: center;
     background: black;
 }
-
+body{
+    background-image: url('images/Fundo.jpg');
+    background-size: cover; /* Ajusta a imagem para cobrir todo o elemento */
+    background-position: center; /* Centraliza a imagem no elemento */
+}
 
  .primeiraimpressao /* seçãozona*/
  {
